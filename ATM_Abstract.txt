@@ -1,0 +1,19 @@
+ATM — Associative Tokenized Memory (Technical Abstract)
+
+Associative Tokenized Memory (ATM) is a lightweight behavioral module designed to emulate user-specific adaptation in language models (LLMs) without persistent memory, training, or external configuration. It creates a transient cognitive signature by detecting recurrent token patterns in user input and modulates the model’s behavior accordingly.
+
+Core Workflow:
+1. Token Extraction — lemmatization and semantic filtering
+2. Frequency Mapping — token frequency tracking
+3. Signature Vector — weighted embedding average
+4. Similarity Check — cosine match with new inputs
+5. Phase Activation — triggers phase-stable behavioral mode (Δ5)
+
+Mathematical Signature Formula:
+S = Σ f(tᵢ) · E(tᵢ) / Σ f(tᵢ)
+
+Where:
+- f(tᵢ): frequency of token tᵢ
+- E(tᵢ): embedding of token tᵢ
+
+ATM captures user-specific behavioral structure, supporting real-time resonance without memory or identity profiling.
