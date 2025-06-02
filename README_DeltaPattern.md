@@ -10,4 +10,4 @@ Maybe someone will find value in it. Maybe not. That’s okay.
 
 I enjoy making it — that’s the reason it exists.
 
-— Ба-то
+— Бато
